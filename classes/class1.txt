@@ -1,16 +1,15 @@
-Class: Waiter
+Class: Fast Food
 
 Attributes:
 
-notepadSize: (integer);
-tieColor: (string);
-shoesTied: (boolean);
-numberOfMenus: (integer);
-tips: (integer);
+numberOfServers: (integer);
+wallColor: (string);
+insideDining: (boolean);
+driveThroughLanes: (integer);
+customers: (integer);
 
 Methods:
-newNotepad: (changes integer of notepadSize);
-newTie: (changes string of tieColor);
-tieShoes: (if shoesTied = flase, run tieShoes);
-lateArrival: (increases integer to numberOfMenus);
-tipsTotal: (updates total amount of tips);
+hireStaff: (changes integer of numberOfServers);
+paintWalls: (changes string of wallColor);
+addLane: (increases integer to driveThroughLanes);
+customerTotal: (updates total amount of customers for the day);

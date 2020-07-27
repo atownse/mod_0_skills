@@ -1,0 +1,15 @@
+Class: Whataburger
+
+Attributes:
+
+numberOfServers = 4;
+wallColor = "orange";
+insideDining = false;
+driveThroughLanes = 1;
+customers = 117;
+
+Methods:
+hireStaff = 8;
+paintWalls = "white";
+addLane = 2;
+customerTotal = 209;
