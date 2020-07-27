@@ -1,0 +1,14 @@
+
+var food = "shrimp creole";
+var is_delicious = true;
+food = "blackened redfish";
+var num2 = 2;
+var num7 = 7;
+var quotient = (num7/num2);
+var songs = ["Car Radio", "Trees", "Not Today", "Leave the City"]
+
+songs.shift();
+console.log(songs);
+
+food.length; // <stringName>.length determines amount of characters in a string
+console.log("there are " + food.length + " characters in the food string");
