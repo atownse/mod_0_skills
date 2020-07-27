@@ -1,0 +1,18 @@
+Instance: Chilis
+
+Attributes:
+
+waiterCount = 20;
+chefCount = 12;
+soupOfDay = "potato soup";
+capacityPercentage = 50;
+openSunday = true;
+
+Methods:
+slowDay = 14;
+saturdayRush = 15;
+dayChange = "French Onion Soup";
+reduceCapacity = 25;
+coronaSunday() {
+  console.log(openSunday = false);
+}

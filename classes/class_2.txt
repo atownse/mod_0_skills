@@ -1,0 +1,16 @@
+Class: Casual
+
+Attributes:
+
+waiterCount: (integer);
+chefCount: (integer);
+soupOfDay: (string);
+capacityPercentage: (integer);
+openSunday: (boolean);
+
+Methods:
+slowDay: (reduce integer of waiterCount);
+saturdayRush: (increase integer of chefCount);
+dayChange: (changes string of soupOfDay);
+reduceCapacity: (lowers capacityPercentage integer);
+coronaSunday: (changes openSunday boolean from true to false)
