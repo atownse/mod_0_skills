@@ -9,10 +9,8 @@ capacityPercentage = 50;
 openSunday = true;
 
 Methods:
-slowDay = 14;
-saturdayRush = 15;
-dayChange = "French Onion Soup";
-reduceCapacity = 25;
-coronaSunday() {
-  console.log(openSunday = false);
-}
+slowDay: waiterCount = 14;
+saturdayRush: chefCount = 15;
+dayChange: soupOfDay = "French Onion Soup";
+reduceCapacity: capacityPercentage = 25;
+coronaSunday: openSunday = false;

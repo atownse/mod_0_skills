@@ -9,7 +9,7 @@ driveThroughLanes = 1;
 customers = 117;
 
 Methods:
-hireStaff = 8;
-paintWalls = "white";
-addLane = 2;
-customerTotal = 209;
+hireStaff: numberOfServers = 8;
+paintWalls: wallColor = "white";
+addLane: driveThroughLanes = 2;
+customerTotal: customers = 209;
